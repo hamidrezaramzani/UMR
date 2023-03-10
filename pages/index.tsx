@@ -27,13 +27,7 @@ export default function Home() {
   };
   return (
     <>
-      <Head>
-        <title>{wordBook.general.homeTitle}</title>
-        <meta name="description" content={wordBook.general.description} />
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/logo.png" />
-      </Head>
-      <MainLayout>
+      <MainLayout entity="home">
         <HStack
           width="100%"
           height="80vh"

@@ -20,7 +20,7 @@ const Navbar = ({ links }: NavbarProps) => {
 Navbar.MoreItems = () => {
   return (
     <Flex alignItems={"center"}>
-      <Link href="/">
+      <Link href="/admin/login">
         <Text>ورود</Text>
       </Link>
     </Flex>

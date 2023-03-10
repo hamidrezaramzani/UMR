@@ -1,14 +1,5 @@
 import { CloseIcon, HamburgerIcon } from "@chakra-ui/icons";
-import {
-  Box,
-  Flex,
-  HStack,
-  IconButton,
-  useDisclosure,
-  Stack,
-  Link,
-  Text,
-} from "@chakra-ui/react";
+import { Box, Flex, HStack, IconButton, useDisclosure } from "@chakra-ui/react";
 import Logo from "./Logo/Logo";
 import Navbar from "./Navbar/Navbar";
 const Header = () => {
